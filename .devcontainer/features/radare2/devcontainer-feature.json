@@ -1,0 +1,6 @@
+{
+    "id": "radare2",
+    "version": "1.0.0",
+    "name": "Radare2",
+    "description": "Installs Radare2 v5.9.0 reverse engineering framework"
+}
