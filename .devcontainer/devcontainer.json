@@ -15,7 +15,8 @@
 		"./features/rizin": {},
 		"./features/ares": {},
 		"./features/helping-tools": {},
-		"./features/quark": {}
+		"./features/quark": {},
+		"ghcr.io/devcontainers/features/github-cli:1": {}
 	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],

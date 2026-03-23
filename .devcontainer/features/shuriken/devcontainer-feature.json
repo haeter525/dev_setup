@@ -1,0 +1,9 @@
+{
+    "id": "shuriken",
+    "version": "1.0.0",
+    "name": "Shuriken Analyzer",
+    "description": "Installs Shuriken Analyzer with its dependencies (cmake, git, default-jdk, iputils-ping)",
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/python"
+    ]
+}

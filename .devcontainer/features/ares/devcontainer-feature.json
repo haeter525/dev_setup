@@ -1,0 +1,6 @@
+{
+    "id": "ares",
+    "version": "1.0.0",
+    "name": "Ares",
+    "description": "Installs Rust and Ares cryptanalysis tool"
+}

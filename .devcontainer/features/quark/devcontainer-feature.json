@@ -1,0 +1,9 @@
+{
+    "id": "quark",
+    "version": "1.0.0",
+    "name": "Quark Engine",
+    "description": "Installs Quark Engine for Android malware analysis",
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/python"
+    ]
+}

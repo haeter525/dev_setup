@@ -1,0 +1,9 @@
+{
+    "id": "helping-tools",
+    "version": "1.0.0",
+    "name": "Helping Tools",
+    "description": "Installs Python dev tools: black, pyupgrade, pycodestyle, isort",
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/python"
+    ]
+}
