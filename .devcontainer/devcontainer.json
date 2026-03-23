@@ -8,7 +8,14 @@
 	"features": {
 		"ghcr.io/devcontainers/features/python:1": {
 			"version": "3.10"
-		}
+		},
+		"ghcr.io/anthropics/devcontainer-features/claude-code:1.0": {},
+		// "./features/shuriken": {},
+		// "./features/radare2": {},
+		// "./features/rizin": {},
+		// "./features/ares": {},
+		// "./features/helping-tools": {},
+		// "./features/quark": {}
 	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
@@ -36,8 +43,7 @@
 	// 	}
 	// ],
 
-	// Clone the source of Quark-Engine from GitHub
-	"postCreateCommand": "sh .devcontainer/010_setupQuark.sh && quark --help",
+	"postCreateCommand": "quark --help",
 	"otherPortsAttributes": {
 		"onAutoForward": "ignore"
 	}
